@@ -1,0 +1,26 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": [
+        "./src/*",
+        "../website/src/*"
+      ],
+      "@reduxjs/toolkit": [
+        "./node_modules/@reduxjs/toolkit"
+      ],
+      "react-redux": [
+        "./node_modules/react-redux"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
