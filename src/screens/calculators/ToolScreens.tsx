@@ -74,7 +74,7 @@ export function ToolsScreen() {
                 size="lg"
                 title="WhatsApp"
                 style={{ flex: 1 }}
-                onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hello Apex Aura, I have a question about buying costs.')}
+                onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hello Apex Aora, I have a question about buying costs.')}
               />
             </View>
           </View>

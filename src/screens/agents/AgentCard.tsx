@@ -44,7 +44,7 @@ export function AgentCard({ agent: a, whatsappText, ratio = 4 / 5 }: { agent: Ag
           variant="outline"
           full
           icon={<WhatsAppIcon size={16} color={colors.whatsapp} />}
-          onPress={() => whatsapp(a.whatsapp, whatsappText ?? `Hi ${first}, I found you on the Apex Aura app.`)}
+          onPress={() => whatsapp(a.whatsapp, whatsappText ?? `Hi ${first}, I found you on the Apex Aora app.`)}
           accessibilityLabel={`WhatsApp ${a.name}`}
         />
         <Button title="View profile" variant="ghost" full onPress={open} accessibilityLabel={`View ${a.name}’s profile`} />

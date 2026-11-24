@@ -45,7 +45,7 @@ export function DldFeesCalculator({ initialPrice }: { initialPrice?: number }) {
       `Total: ${fmt(total)} (${pct(price ? (total / price) * 100 : 0)} of the price)`,
       `Price + fees: ${fmt(price + total)}`,
       '',
-      'Indicative only — Apex Aura DLD fees calculator.',
+      'Indicative only — Apex Aora DLD fees calculator.',
     ]
     void Share.share({ title: 'DLD & buying fees', message: lines.join('\n') })
   }

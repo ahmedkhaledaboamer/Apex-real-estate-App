@@ -48,7 +48,7 @@ function Profile({ a }: { a: AgentProfile }) {
   const reviews = useMemo(() => TESTIMONIALS.filter((t) => t.quote.includes(first)), [first])
   const kinds = ORDER.filter((k) => listings.some((p) => p.kind === k))
   const [kind, setKind] = useState<ListingKind>(kinds[0] ?? 'sale')
-  const waText = `Hi ${first}, I found your profile on the Apex Aura app.`
+  const waText = `Hi ${first}, I found your profile on the Apex Aora app.`
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.paper }}>
@@ -120,7 +120,7 @@ function Profile({ a }: { a: AgentProfile }) {
           <View style={{ gap: 10, marginTop: 24 }}>
             <Button title={`Call ${first}`} variant="plum" full icon={<Phone size={16} color={colors.white} />} onPress={() => call(a.phone)} />
             <Button title="WhatsApp" variant="whatsapp" full icon={<WhatsAppIcon size={16} />} onPress={() => whatsapp(a.whatsapp, waText)} />
-            <Button title={`Email ${first}`} variant="outline" full icon={<Mail size={16} color={colors.plum} />} onPress={() => email(a.email, 'Enquiry from the Apex Aura app')} />
+            <Button title={`Email ${first}`} variant="outline" full icon={<Mail size={16} color={colors.plum} />} onPress={() => email(a.email, 'Enquiry from the Apex Aora app')} />
           </View>
         </Container>
 

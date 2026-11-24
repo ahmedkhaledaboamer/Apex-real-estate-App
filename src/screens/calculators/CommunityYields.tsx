@@ -79,7 +79,7 @@ export function CommunityYieldTable({ sortable = false }: { sortable?: boolean }
         </Pressable>
       ))}
       <Text size={12} color="muted" lineHeight={18}>
-        Gross yields and prices from the Apex Aura data pack; rents are indicative annual figures. * Earlier snapshot. Past performance is not a guide to future returns.
+        Gross yields and prices from the Apex Aora data pack; rents are indicative annual figures. * Earlier snapshot. Past performance is not a guide to future returns.
       </Text>
     </View>
   )

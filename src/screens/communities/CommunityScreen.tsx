@@ -204,7 +204,7 @@ export function CommunityScreen({ slug }: { slug: string }) {
       {/* Map */}
       <View style={{ marginTop: 40, paddingVertical: 40, backgroundColor: colors.white }}>
         <Container>
-          <SectionHead title="On the map" sub={`The heart of ${c.name}, with every live Apex Aura listing in the community.`} />
+          <SectionHead title="On the map" sub={`The heart of ${c.name}, with every live Apex Aora listing in the community.`} />
           <LocationMap markers={markers} onMarkerPress={(id) => id !== 'centre' && router.push(propertyHref({ id }))} style={{ height: 340 }} />
         </Container>
       </View>

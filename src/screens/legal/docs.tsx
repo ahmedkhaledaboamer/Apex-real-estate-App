@@ -22,7 +22,7 @@ const PRIVACY: LegalDoc = {
   title: 'Privacy policy',
   intro: (
     <P first>
-      Your privacy matters to us. This policy explains what personal data Apex Aura collects when you use our website or services, why we collect it, how we protect it and
+      Your privacy matters to us. This policy explains what personal data Apex Aora collects when you use our website or services, why we collect it, how we protect it and
       the choices you have.
     </P>
   ),
@@ -33,11 +33,11 @@ const PRIVACY: LegalDoc = {
       content: (
         <>
           <P first>
-            This website is operated by <B>Apex Aura Real Estate LLC</B> (“Apex Aura”, “we”, “us”), a real estate brokerage licensed in the Emirate of Dubai under Trade
+            This website is operated by <B>Apex Aora Real Estate LLC</B> (“Apex Aora”, “we”, “us”), a real estate brokerage licensed in the Emirate of Dubai under Trade
             Licence No. [Trade Licence No.] and registered with the Real Estate Regulatory Agency (RERA) under Office Registration Number (ORN) [RERA ORN].
           </P>
           <P>
-            Our registered office is {OFFICE_ADDRESS}. For the purposes of the UAE Personal Data Protection Law, Federal Decree-Law No. 45 of 2021 (“PDPL”), Apex Aura is
+            Our registered office is {OFFICE_ADDRESS}. For the purposes of the UAE Personal Data Protection Law, Federal Decree-Law No. 45 of 2021 (“PDPL”), Apex Aora is
             the controller of the personal data described in this policy.
           </P>
         </>
@@ -231,7 +231,7 @@ const PRIVACY: LegalDoc = {
 
 const TERMS: LegalDoc = {
   title: 'Terms of use',
-  intro: <P first>Please read these terms carefully. They explain the rules for using the Apex Aura website and how our listings and tools should be relied on.</P>,
+  intro: <P first>Please read these terms carefully. They explain the rules for using the Apex Aora website and how our listings and tools should be relied on.</P>,
   sections: [
     {
       id: 'about-these-terms',
@@ -239,7 +239,7 @@ const TERMS: LegalDoc = {
       content: (
         <>
           <P first>
-            These terms govern your use of this website, operated by <B>Apex Aura Real Estate LLC</B>, a real estate brokerage licensed in Dubai (Trade Licence No. [Trade
+            These terms govern your use of this website, operated by <B>Apex Aora Real Estate LLC</B>, a real estate brokerage licensed in Dubai (Trade Licence No. [Trade
             Licence No.]; RERA ORN [RERA ORN]), whose office is at {OFFICE_ADDRESS}.
           </P>
           <P>By using the website you accept these terms. If you do not agree, please do not use the website.</P>
@@ -317,7 +317,7 @@ const TERMS: LegalDoc = {
       title: 'Intellectual property',
       content: (
         <P first>
-          The Apex Aura name, logo, design, text, photography and software on this website are owned by or licensed to Apex Aura Real Estate LLC. You may view and print pages
+          The Apex Aora name, logo, design, text, photography and software on this website are owned by or licensed to Apex Aora Real Estate LLC. You may view and print pages
           for personal, non-commercial use. Any other use requires our prior written permission.
         </P>
       ),
@@ -338,7 +338,7 @@ const TERMS: LegalDoc = {
       content: (
         <>
           <P first>
-            To the fullest extent permitted by UAE law, Apex Aura is not liable for any indirect or consequential loss, or for any loss arising from reliance on information on
+            To the fullest extent permitted by UAE law, Apex Aora is not liable for any indirect or consequential loss, or for any loss arising from reliance on information on
             this website, including indicative estimates and calculator results.
           </P>
           <P>Nothing in these terms limits liability that cannot be limited under UAE law, including liability for fraud or gross negligence.</P>
@@ -396,7 +396,7 @@ const COOKIES_DOC: LegalDoc = {
   title: 'Cookie policy',
   intro: (
     <P first>
-      This policy explains how Apex Aura Real Estate LLC uses cookies and similar technologies on this website, and how you can control them. You can update your choices at
+      This policy explains how Apex Aora Real Estate LLC uses cookies and similar technologies on this website, and how you can control them. You can update your choices at
       any time in <B>Manage preferences</B>.
     </P>
   ),

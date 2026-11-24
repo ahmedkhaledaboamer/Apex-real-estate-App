@@ -192,7 +192,7 @@ export function ValuationForm({ values, onChange, onStepChange }: { values: Valu
             full
             title="WhatsApp us"
             icon={<WhatsAppIcon size={16} />}
-            onPress={() => whatsapp(WHATSAPP_NUMBER, `Hi Apex Aura, I just requested a valuation for ${values.building.trim()}, ${communityLabel(values)}.`)}
+            onPress={() => whatsapp(WHATSAPP_NUMBER, `Hi Apex Aora, I just requested a valuation for ${values.building.trim()}, ${communityLabel(values)}.`)}
           />
         </View>
       </View>

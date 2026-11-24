@@ -24,7 +24,7 @@ export const OFFICE_HOURS: { days: string; hours: string }[] = [
 export function OfficeCard() {
   return (
     <View style={styles.card}>
-      <LocationMap markers={[{ id: 'office', position: OFFICE_LOCATION, label: 'Apex Aura' }]} style={{ height: 220, borderRadius: 0 }} />
+      <LocationMap markers={[{ id: 'office', position: OFFICE_LOCATION, label: 'Apex Aora' }]} style={{ height: 220, borderRadius: 0 }} />
       <View style={{ padding: 20 }}>
         <Text size={12.5} weight={600} color="aura">
           Head office
@@ -74,7 +74,7 @@ function Line({ icon, text, onPress, label }: { icon: React.ReactNode; text: str
 
 const OPTIONS = [
   { key: 'call', title: 'Call us', value: CONTACT_PHONE, note: 'Mon–Fri 9:00–19:00, weekends 10:00–18:00', onPress: () => call(CONTACT_PHONE_HREF) },
-  { key: 'wa', title: 'WhatsApp', value: 'Chat with an adviser', note: 'Usually replies within 15 minutes', onPress: () => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aura, I have a question.') },
+  { key: 'wa', title: 'WhatsApp', value: 'Chat with an adviser', note: 'Usually replies within 15 minutes', onPress: () => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aora, I have a question.') },
   { key: 'mail', title: 'Email', value: CONTACT_EMAIL, note: 'We reply within one working day', onPress: () => email(CONTACT_EMAIL) },
   { key: 'visit', title: 'Visit', value: 'Marina Plaza, Dubai Marina', note: OFFICE_ADDRESS, onPress: () => openUrl(OFFICE_DIRECTIONS_URL) },
 ] as const

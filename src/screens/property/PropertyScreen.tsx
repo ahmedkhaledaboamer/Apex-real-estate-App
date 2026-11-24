@@ -65,7 +65,7 @@ function PropertyDetail({ property: p }: { property: Property }) {
   const share = () =>
     Share.share({
       title: p.title,
-      message: `${p.title} — ${p.building}, ${p.community}. ${formatPrice(p.priceAed, currency)}${rent ? ' /year' : ''}. Permit ${p.permit}. Apex Aura`,
+      message: `${p.title} — ${p.building}, ${p.community}. ${formatPrice(p.priceAed, currency)}${rent ? ' /year' : ''}. Permit ${p.permit}. Apex Aora`,
     }).catch(() => undefined)
 
   const context = { propertyId: p.id, agentId: agent.id }

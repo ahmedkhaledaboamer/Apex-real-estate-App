@@ -223,7 +223,7 @@ export function YieldGuideScreen() {
         title="Find a higher-yield home"
         sub="Tell us your budget and we will shortlist units with verified rents and service-charge histories, so the net yield holds up."
         submitLabel="Get my shortlist"
-        whatsappText="Hello Apex Aura, I am looking for a rental investment."
+        whatsappText="Hello Apex Aora, I am looking for a rental investment."
         topic={['Long-term rental', 'Short-term / holiday home', 'Not sure yet']}
       />
     </Screen>

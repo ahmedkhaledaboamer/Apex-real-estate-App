@@ -1,5 +1,5 @@
 /**
- * Apex Aura design tokens for the app — read from the website's tailwind.config.ts, so colours,
+ * Apex Aora design tokens for the app — read from the website's tailwind.config.ts, so colours,
  * radii and shadows are literally the same values as the site. Change them there, both update.
  */
 import { brand } from '../../../website/tailwind.config'

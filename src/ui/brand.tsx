@@ -18,13 +18,13 @@ import { Text } from './Text'
 /** Infinity mark + wordmark (site: Logo). */
 export function Logo({ light = false, compact = false }: { light?: boolean; compact?: boolean }) {
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }} accessibilityLabel="Apex Aura">
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }} accessibilityLabel="Apex Aora">
       <View style={light ? styles.logoChip : undefined}>
         <Img src={LOGO_URL} style={{ width: 44, height: 18 }} contentFit="contain" transition={0} />
       </View>
       <View>
         <Text display weight={600} size={22} lineHeight={22} color={light ? 'white' : 'plum'} tracking={0.02}>
-          Apex Aura
+          Apex Aora
         </Text>
         {!compact ? (
           <Text size={9.5} weight={500} tracking={0.22} color={light ? 'white' : 'muted'} style={light ? { opacity: 0.6 } : undefined}>

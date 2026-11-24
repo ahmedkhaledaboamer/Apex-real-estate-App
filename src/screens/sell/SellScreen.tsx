@@ -114,12 +114,12 @@ export function SellScreen() {
           full
           title="Talk to a sales adviser"
           icon={<WhatsAppIcon size={16} />}
-          onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aura, I am thinking of selling my property.')}
+          onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aora, I am thinking of selling my property.')}
         />
       </PhotoHero>
 
       {/* Numbers */}
-      <View style={[styles.numbers, pageStyles.bordered]} accessibilityLabel="Apex Aura in numbers">
+      <View style={[styles.numbers, pageStyles.bordered]} accessibilityLabel="Apex Aora in numbers">
         <Container>
           <FactsGrid items={STATS} />
         </Container>
@@ -128,7 +128,7 @@ export function SellScreen() {
       {/* Why sell with us */}
       <Section>
         <Container>
-          <SectionHead title="Why sell with Apex Aura" sub="You get an honest price, serious buyers and a team that handles the paperwork so you don’t have to." />
+          <SectionHead title="Why sell with Apex Aora" sub="You get an honest price, serious buyers and a team that handles the paperwork so you don’t have to." />
         </Container>
         <Carousel data={BENEFITS} keyOf={(b) => b.title} itemWidth={cardW} render={(b) => <IconCard icon={b.icon} title={b.title} body={b.body} serif={false} style={{ flex: 1 }} />} />
       </Section>

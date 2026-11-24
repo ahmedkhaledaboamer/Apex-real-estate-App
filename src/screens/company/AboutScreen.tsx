@@ -63,7 +63,7 @@ export function AboutScreen() {
         />
         <View style={{ paddingHorizontal: GUTTER, paddingBottom: 30 }}>
           <Heading size={42} color="white" accessibilityRole="header">
-            About Apex Aura
+            About Apex Aora
           </Heading>
           <Text size={15.5} color="white" lineHeight={24} style={{ marginTop: 10, opacity: 0.85 }}>
             A Dubai brokerage built on clear data, licensed advisers and no surprises at transfer.
@@ -75,22 +75,22 @@ export function AboutScreen() {
       <Container style={{ paddingTop: 40 }}>
         <Eyebrow>Our story</Eyebrow>
         <Heading size={34} style={{ marginTop: 6 }}>
-          We started Apex Aura to make buying in Dubai feel straightforward.
+          We started Apex Aora to make buying in Dubai feel straightforward.
         </Heading>
         <Text size={15.5} color="muted" lineHeight={25} style={{ marginTop: 16 }}>
           Our founders spent years watching clients arrive at the trustee office surprised by fees nobody had mentioned, or holding listings that had been sold weeks earlier.
-          Apex Aura was set up in Dubai Marina to do the opposite: show the real numbers, verify every listing and keep one adviser with the client from first viewing to
+          Apex Aora was set up in Dubai Marina to do the opposite: show the real numbers, verify every listing and keep one adviser with the client from first viewing to
           final transfer.
         </Text>
         <Text size={15.5} color="muted" lineHeight={25} style={{ marginTop: 14 }}>
           Today our team of RERA-certified advisers covers sales, leasing, off-plan and property management across Dubai’s leading freehold communities — from Marina
           apartments to Palm Jumeirah villas — for owner-occupiers, investors and families relocating from abroad.
         </Text>
-        <Img src={IMG.living} style={styles.storyImg} accessibilityLabel="Apex Aura client lounge" />
+        <Img src={IMG.living} style={styles.storyImg} accessibilityLabel="Apex Aora client lounge" />
       </Container>
 
       {/* Numbers */}
-      <View style={styles.numbers} accessibilityLabel="Apex Aura in numbers">
+      <View style={styles.numbers} accessibilityLabel="Apex Aora in numbers">
         {NUMBERS.map((s) => (
           <View key={s.label} style={{ width: '50%', paddingRight: 12, paddingVertical: 14 }}>
             <Heading size={46} lineHeight={48}>
@@ -183,7 +183,7 @@ export function AboutScreen() {
             Licences & compliance
           </Heading>
           <Text size={15} color="muted" lineHeight={23} style={{ marginTop: 8 }}>
-            Apex Aura Real Estate LLC is licensed by the Dubai Land Department and regulated by the Real Estate Regulatory Agency (RERA).
+            Apex Aora Real Estate LLC is licensed by the Dubai Land Department and regulated by the Real Estate Regulatory Agency (RERA).
           </Text>
           <View style={{ gap: 10, marginTop: 18 }}>
             {LICENCES.map((r) => (

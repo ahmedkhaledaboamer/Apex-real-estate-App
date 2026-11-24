@@ -27,7 +27,7 @@ const SORTS: { key: Sort; label: string }[] = [
   { key: 'price-desc', label: 'Price ↓' },
 ]
 
-export const listingWebUrl = (l: Pick<Listing, 'id' | 'kind'>) => `https://apexaura.ae/${l.kind === 'rent' ? 'rent' : 'buy'}/${l.id}`
+export const listingWebUrl = (l: Pick<Listing, 'id' | 'kind'>) => `https://apexaora.ae/${l.kind === 'rent' ? 'rent' : 'buy'}/${l.id}`
 
 export function SavedScreen() {
   const dispatch = useAppDispatch()
@@ -43,7 +43,7 @@ export function SavedScreen() {
   }, [ids, sort])
 
   const share = async () => {
-    const text = ['My saved properties on Apex Aura:', ...items.map((l, i) => `${i + 1}. ${l.title} (${l.community}) – ${listingWebUrl(l)}`)].join('\n')
+    const text = ['My saved properties on Apex Aora:', ...items.map((l, i) => `${i + 1}. ${l.title} (${l.community}) – ${listingWebUrl(l)}`)].join('\n')
     try {
       await Share.share({ title: 'My saved properties', message: text })
     } catch {

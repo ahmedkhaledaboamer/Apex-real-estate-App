@@ -56,7 +56,7 @@ export function MoreScreen() {
       items: [
         { label: 'Invest', sub: 'Yields, strategy & portfolios', icon: TrendingUp, href: '/invest' },
         { label: 'Golden Visa', sub: 'Residency through property', icon: Sparkles, href: '/invest/golden-visa' },
-        { label: 'Sell', sub: 'List with Apex Aura', icon: Tag, href: '/sell' },
+        { label: 'Sell', sub: 'List with Apex Aora', icon: Tag, href: '/sell' },
         { label: 'Free valuation', sub: 'Know what your home is worth', icon: Home, href: '/sell/valuation' },
         { label: 'Calculators', sub: 'Mortgage, fees, ROI, rent vs buy', icon: Calculator, href: '/tools' },
         { label: 'Compare', sub: 'Side-by-side comparison', icon: Scale, href: '/compare', badge: compareCount > 0 ? String(compareCount) : undefined },
@@ -86,7 +86,7 @@ export function MoreScreen() {
           More
         </Heading>
         <Text size={15} color="muted" style={{ marginTop: 4 }}>
-          Everything else Apex Aura can help you with.
+          Everything else Apex Aora can help you with.
         </Text>
 
         {/* Contact strip */}
@@ -96,7 +96,7 @@ export function MoreScreen() {
           </Text>
           <View style={{ flexDirection: 'row', gap: 10, marginTop: 12 }}>
             <ContactBtn label="Call" onPress={() => call(CONTACT_PHONE_HREF)} icon={<Phone size={18} color={colors.plum} />} />
-            <ContactBtn label="WhatsApp" onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aura, I have a question.')} icon={<WhatsAppIcon size={18} color={colors.whatsapp} />} />
+            <ContactBtn label="WhatsApp" onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aora, I have a question.')} icon={<WhatsAppIcon size={18} color={colors.whatsapp} />} />
             <ContactBtn label="Email" onPress={() => email(CONTACT_EMAIL)} icon={<Mail size={18} color={colors.plum} />} />
           </View>
         </View>
@@ -150,7 +150,7 @@ export function MoreScreen() {
             </Text>
           </View>
           <Text size={12} color="muted" align="center">
-            Apex Aura Real Estate LLC · RERA ORN [placeholder] · Trade Licence [Trade Licence No.]
+            Apex Aora Real Estate LLC · RERA ORN [placeholder] · Trade Licence [Trade Licence No.]
           </Text>
           <Text size={12} color="muted">
             Version {version}

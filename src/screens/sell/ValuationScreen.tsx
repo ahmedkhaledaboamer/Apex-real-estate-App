@@ -130,7 +130,7 @@ export function ValuationScreen() {
             </Text>
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 14 }}>
               <Button variant="outline" title={CONTACT_PHONE} icon={<Phone size={16} color={colors.plum} />} onPress={() => call()} accessibilityLabel={`Call ${CONTACT_PHONE}`} />
-              <Button variant="whatsapp" title="WhatsApp" icon={<WhatsAppIcon size={16} />} onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aura, I would like a valuation for my property.')} />
+              <Button variant="whatsapp" title="WhatsApp" icon={<WhatsAppIcon size={16} />} onPress={() => whatsapp(WHATSAPP_NUMBER, 'Hi Apex Aora, I would like a valuation for my property.')} />
             </View>
           </View>
         </Container>

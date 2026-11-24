@@ -26,4 +26,4 @@ export function adjacentArticles(current: ArticleDetail) {
 }
 
 export const articleHref = (a: Pick<ArticleDetail, 'slug'>) => `/article/${a.slug}` as const
-export const articleWebUrl = (a: Pick<ArticleDetail, 'slug'>) => `https://apexaura.ae/insights/${a.slug}`
+export const articleWebUrl = (a: Pick<ArticleDetail, 'slug'>) => `https://apexaora.ae/insights/${a.slug}`

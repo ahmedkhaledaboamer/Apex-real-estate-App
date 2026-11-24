@@ -16,7 +16,7 @@ const DEFAULTS: Prefs = { analytics: false, marketing: false }
 const CATEGORIES: { key: 'essential' | keyof Prefs; title: string; body: string }[] = [
   { key: 'essential', title: 'Essential', body: 'Needed for the app to work: security, your currency and language choice, saved properties and this preference itself. Always on.' },
   { key: 'analytics', title: 'Analytics', body: 'Helps us understand which screens are used so we can improve them. Data is aggregated and not used to identify you.' },
-  { key: 'marketing', title: 'Marketing', body: 'Lets us measure our advertising and show relevant Apex Aura ads on other sites and social platforms.' },
+  { key: 'marketing', title: 'Marketing', body: 'Lets us measure our advertising and show relevant Apex Aora ads on other sites and social platforms.' },
 ]
 
 export type CookieRow = { name: string; purpose: string; duration: string; type: 'Essential' | 'Analytics' | 'Marketing' }

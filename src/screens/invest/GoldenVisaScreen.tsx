@@ -205,7 +205,7 @@ export function GoldenVisaScreen() {
         title="Plan your Golden Visa purchase"
         sub="Tell us your budget and timeline. An adviser will shortlist qualifying homes and walk you through the application."
         submitLabel="Request a callback"
-        whatsappText="Hello Apex Aura, I would like advice on the Golden Visa through property."
+        whatsappText="Hello Apex Aora, I would like advice on the Golden Visa through property."
         topic={['Buying to qualify', 'I already own property', 'Combining several units', 'Off-plan purchase']}
       />
     </Screen>

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Apex Aura",
-    "slug": "apex-aura",
+    "name": "Apex Aora",
+    "slug": "apex-aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "apexaura",
+    "scheme": "apexaora",
     "userInterfaceStyle": "light",
     "ios": {
       "icon": "./assets/expo.icon"
