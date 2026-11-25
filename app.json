@@ -8,7 +8,7 @@
     "scheme": "apexaora",
     "userInterfaceStyle": "light",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
@@ -30,7 +30,7 @@
         {
           "backgroundColor": "#381a4c",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 220
         }
       ]
     ],

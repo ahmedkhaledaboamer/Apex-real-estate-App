@@ -66,12 +66,19 @@ export function Hero() {
       />
       <LinearGradient colors={['rgba(30,24,40,0)', 'rgba(30,24,40,0.5)']} style={styles.bottomFade} />
 
-      <View style={{ paddingHorizontal: GUTTER, paddingTop: 44, paddingBottom: 36 }}>
-        <Text display weight={600} size={50} lineHeight={48} color="white" accessibilityRole="header">
+      <View style={{ paddingHorizontal: GUTTER, paddingTop: 40, paddingBottom: 36 }}>
+        {/* Eyebrow (site: cyan rule + "DUBAI REAL ESTATE · RERA-LICENSED ADVISERS") */}
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+          <View style={{ width: 28, height: 1.5, backgroundColor: colors.cyan }} />
+          <Text weight={600} size={11.5} color="white" style={{ letterSpacing: 2.2, opacity: 0.9 }}>
+            DUBAI REAL ESTATE · RERA-LICENSED
+          </Text>
+        </View>
+        <Text display weight={600} size={50} lineHeight={48} color="white" accessibilityRole="header" style={{ marginTop: 16 }}>
           Find your place in Dubai.
         </Text>
         <Text size={17} color="white" lineHeight={26} style={{ marginTop: 14, opacity: 0.85 }}>
-          Buy, rent and invest with confidence.
+          Buy, rent and invest with confidence — verified listings, licensed advisers and clear numbers.
         </Text>
 
         {/* Glass search */}

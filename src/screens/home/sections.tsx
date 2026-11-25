@@ -346,6 +346,8 @@ const SERIES = [
 ]
 
 function AreaChart({ width }: { width: number }) {
+  // Before the window is measured (web first render) there is no room to draw yet.
+  if (width <= 0) return null
   const w = 360
   const h = 120
   const min = 1700
@@ -380,7 +382,7 @@ function AreaChart({ width }: { width: number }) {
 
 export function Insights() {
   const { width } = useWindowDimensions()
-  const inner = width - GUTTER * 2 - 40
+  const inner = Math.max(0, width - GUTTER * 2 - 40)
   return (
     <Container style={{ paddingVertical: 48 }}>
       <SectionHead title="Market insights" sub="The Dubai market is stabilising: volumes are below the 2025 peak, ready homes are gaining share and leasing demand is at a record high." />
